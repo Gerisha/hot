@@ -30,7 +30,7 @@ function setup() {
 // function to display UI
 function draw() {
   background(bg);
-  if (height){
+ 
   if(keyDown(LEFT_ARROW)){
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in left direction
@@ -58,7 +58,7 @@ function draw() {
 
 
   drawSprites();
-}
+
   fill(0);
   stroke("white");
   textSize(25);
